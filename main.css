@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   margin: 0;
 }
 
@@ -64,7 +64,7 @@ body {
   border-radius: 3px;
   bottom: -50px;
   color: #fff;
-  padding: 0.5rem 1rem;
+  padding: .5rem 1rem;
   position: absolute;
   right: 5px;
 }
@@ -86,15 +86,14 @@ body {
   font-size: 4rem;
 }
 
-.idea-5 span,
-.idea-6 span,
-.wish-hbd span {
+.idea-5 span, .idea-6 span, .wish-hbd span {
   display: inline-block;
 }
 
-.idea-6 span {
+.idea-6 span{
   font-size: 15rem;
 }
+
 
 .six {
   position: relative;
@@ -134,8 +133,7 @@ body {
   left: 30%;
 }
 
-.seven,
-.eight {
+.seven, .eight {
   height: 100vh;
   position: fixed;
   top: 0;
@@ -241,32 +239,7 @@ body {
 }
 
 @media screen and (max-height: 700px) {
-    .container > div {
-    top: 10vh;
-  }
-
-  .four .text-box {
-    width: 95%;
-  }
-
-  .text-box .fake-btn {
-    bottom: -45px;
-    padding: .4rem .8rem;
-    font-size: 0.9rem;
-  }
-
   .six .hat {
-    width: 60px;
-  }
-
-  .six img {
-    height: 250px;
-  }
-
-  .wish-hbd {
-    font-size: 2.5em;
-  }
-    .six .hat {
     left: 32%;
   }
 }
@@ -279,59 +252,59 @@ body {
 
 @media screen and (max-width: 500px) {
   .container {
-    min-height: 100dvh;
+    width: 95%;
   }
 
-  .one {
-    font-size: 2.5rem;
+  .four .text-box {
+    width: 95%;
   }
 
-  .two {
-    font-size: 1rem;
+  .text-box .fake-btn {
+    bottom: -48px;
+    right: 10px;
   }
+.five {
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+  .idea-5 {
+      display: inline;
+      font-size: small;
+      font-size: 2rem;
+      text-align: center;
+      word-break: break-word;
+      padding: 0 10px;
+}
 
-  .three {
+.idea-5 span {
+    display: inline;
+    font-size: small;
     font-size: 2rem;
-  }
+    text-align: center;
+    word-break: break-word;
+    padding: 0 10px;
+}
 
-  .five .idea-5 {
-    font-size: 2.5rem;
-  }
 
-  .text-box {
-    padding: 10px 15px;
-  }
-
-  .text-box p {
-    font-size: 0.9rem;
-  }
-
-  .six img {
-    height: 200px;
+  .idea-6 span {
+    font-size: 5rem;
   }
 
   .six .hat {
-    width: 40px;
-    top: -20%;
-  }
-
-  .baloons img {
-    width: 40px;
+    top: -20px;
+    width: 50px;
   }
 
   .wish-hbd {
-    font-size: 1.8em;
+    font-size: 2.2em;
   }
 
   .wish h5 {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
   }
 
   .nine p {
-    font-size: 1.2rem;
-  }
-
-  #replay {
-    font-size: 1rem;
+    font-size: 1.5rem;
+    font-weight: lighter;
   }
 }
